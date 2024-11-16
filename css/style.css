@@ -18,8 +18,11 @@ h1 {
     color: white;
 }
 
+h2 {
+    color: white;
+}
+
 input {
-    margin-bottom: 30px;
     border: none;
     background-color: rgba(10, 10, 10, .7);
     color: white;
@@ -60,7 +63,8 @@ button {
     color: white;
     border-radius: 20px;
     cursor: pointer;
-    transition: .3s
+    transition: .3s;
+    margin: 25px 0px;
 }
 
 button:hover {

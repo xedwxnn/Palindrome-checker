@@ -1,4 +1,5 @@
 const input = document.getElementById('input');
+let h2 = document.getElementById('h2');
 
 function resultChecker() {
     const textoLimpio = input.value.toLowerCase().replace(/\s+/g, '');
@@ -14,10 +15,10 @@ function resultChecker() {
     }
 
     if (esPalindromo) {
-        alert("Es palíndromo");
+        h2.innerHTML = `${input.value} es palíndromo`;
     }
     
     else {
-        alert("No es palíndromo");
+        h2.innerHTML = `${input.value} no es palíndromo`;
     }
 }
